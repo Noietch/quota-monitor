@@ -24,6 +24,6 @@ open QuotaMonitor.app
 https://sub2api.labuta.diy/quota/v1/group
 ```
 
-应用要求 macOS 13 或更新版本。这里只使用 Command Line Tools 即可构建菜单栏版本，不要求完整 Xcode。
+应用要求 macOS 13 或更新版本，发布包同时支持 Apple Silicon 和 Intel。这里只使用 Command Line Tools 即可构建菜单栏版本，不要求完整 Xcode。
 
 开发时可运行 `QuotaMonitor.app/Contents/MacOS/QuotaMonitor --preview`，在普通窗口中检查弹窗布局；正常启动不会显示该窗口。
